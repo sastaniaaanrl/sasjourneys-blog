@@ -1,0 +1,75 @@
+<!-- templates/home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to sasjourneys</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        h1.judul {
+            color: whitesmoke;
+            text-align: center;
+        }
+        h2.kategori {
+            color:whitesmoke; 
+            text-align: center;
+        }
+        nav.menu {
+            text-align: center;
+            color: white;
+        }
+        img.foto1 {
+            text-align: center;
+            width: 20%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="#">home</a>
+            <a href="#">about</a>
+        </nav>
+    </header>
+
+    <img src="https://i.pinimg.com/736x/b0/08/ba/b008ba9aa5c99bf16a526b25b56bc1e4.jpg" class="foto1" alt="">
+    <h1 class="judul">welcome to sasjourneys</h1> 
+
+    <h2 class="kategori">Categories</h2>
+    <ul>
+        {% for category in categories %}
+            <li>{{ category.category }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Pages</h2>
+    <ul>
+        {% for page in pages %}
+            <li><a href="{% url 'page_detail' page.slug %}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <h2>Posts</h2>
+    <ul>
+        {% for post in posts %}
+            <li><a href="{% url 'post_detail' post.slug %}">{{ post.title }}</a></li>
+            {% if post.image %}
+            <img src="{{ post.image.url }}" alt="{{ post.title }}">
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+    <footer>
+        <nav class="menu">
+            <a href="#">home</a>
+            <a href="#">about</a>
+        </nav>
+    </footer>
+</body>
+</html> 
