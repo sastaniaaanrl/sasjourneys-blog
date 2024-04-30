@@ -2,7 +2,14 @@ Sasjourneys, sasjourneys adalah website yang berisikan film film rekomendasi yan
 
 Penjelasan kode html
    (<title>) : kode untuk menginput judul 
-   
    saya menggunakan "welcome to sasjourneys, full on movies reccomendation" sebagai kalimat pembuka agar orang mengetahui bahwa website sasjourneys adalah website untuk film rekomendasi dari author, yaitu saya sendiri
    
-   (<img src=) : kode untuk menginput foto
+   (<img src=) : kode untuk menginput foto dari internet.
+   saya memilih menambahkan foto ini agar tampilan web saya terlihat lebih menarik
+   
+   (<a href="#">home</a>)
+   (<a href="#">about</a>)
+   (<a href="#">review</a>)
+   kode untuk navbar, untuk mengarahkan pengunjung website
+
+
