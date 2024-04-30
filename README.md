@@ -4,7 +4,7 @@ Penjelasan kode html
 1. Home.hmtl:
    (<title>welcome to sasjourneys, full on movies reccomendation</title>)
    
-   saya menggunakan "welcome to sasjourneys, full on movies reccomendation" sebagai kalimat pembuka agar orang mengetahui bahwa website sasjourneys adalah website untuk film rekomendasi dari author (saya sendiri)
+   saya menggunakan "welcome to sasjourneys, full on movies reccomendation" sebagai kalimat pembuka agar orang mengetahui bahwa website sasjourneys adalah website untuk film rekomendasi dari author, yaitu saya sendiri
    
    "<img src="https://i.pinimg.com/736x /eb/8f/d7/eb8fd71636179937a6718220f12713ff . jpg" class="foto1" alt="">"
 saya menginput foto bertuliskan "sasjourneys, since 2024" agar tampilan website home terlihat lebih menarik
