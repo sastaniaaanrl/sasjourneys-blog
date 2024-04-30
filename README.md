@@ -7,9 +7,6 @@ Penjelasan kode html
    (<img src=) : kode untuk menginput foto dari internet.
    saya memilih menambahkan foto ini agar tampilan web saya terlihat lebih menarik
    
-   <a href = "#"> home </a>
-   <a href = "#"> about </a>
-   <a href= "#"> review< /a>
-   kode untuk navbar, untuk mengarahkan pengunjung website
+
 
 
