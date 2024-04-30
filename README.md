@@ -5,8 +5,7 @@ Penjelasan kode html
    (<title>welcome to sasjourneys, full on movies reccomendation</title>)
    
    saya menggunakan "welcome to sasjourneys, full on movies reccomendation" sebagai kalimat pembuka agar orang mengetahui bahwa website sasjourneys adalah website untuk film rekomendasi dari author (saya sendiri)
-   
-(<img src="https://i.pinimg.com/736x /eb/8f/d7/eb8fd71636179937a6718220f12713ff .jpg" class="foto1" alt="">)
+   <img src="https://i.pinimg.com/736x /eb/8f/d7/eb8fd71636179937a6718220f12713ff .jpg" class="foto1" alt="">)
 
 saya menginput foto bertuliskan "sasjourneys, since 2024" agar tampilan website home terlihat lebih menarik
     (<marquee direction="left" direction="right">hope you enjoy my point of view of movies! you can email me at sastanianurul@gmail.com if you have movie reccomendation for me to review</marquee>)
