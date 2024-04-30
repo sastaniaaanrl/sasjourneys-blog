@@ -1,4 +1,5 @@
-Sasjourneys, sasjourneys adalah website yang berisikan film film rekomendasi yang telah saya tonton. kata "sas" yang berarti sastania, nama saya sendiri, dan journeys adalah perjalanan. jadi sasjourneys berisikan perjalanan saya dalam mereview film film yang saya rekomendasikan, karena hobi saya adalah menonton film
+Sasjourneys, sasjourneys adalah website yang berisikan film film rekomendasi yang telah saya tonton. kata "sas" yang berarti sastania, nama saya sendiri, dan journeys adalah perjalanan. jadi sasjourneys berisikan perjalanan saya dalam mereview film film yang saya rekomendasikan, karena hobi saya adalah menonton film.
+
 Penjelasan kode html
 1. Home.hmtl:
    (<title>welcome to sasjourneys, full on movies reccomendation</title>)
