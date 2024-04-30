@@ -6,6 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ post.title }}</title>
+    <style> 
+    body {
+        background-color: pink; 
+            color: whitesmoke; 
+            text-align: center;
+            font-size: 75%; 
+            width: 100%;
+    }
+    </style>
 </head>
 <body>
     <h1>{{ post.title }}</h1>
@@ -14,11 +23,9 @@
     <p>{{ post.content }}</p>
     {% if post.image %}
         <img src="{{ post.image.url }}" alt="{{ post.title }}">
-    {% endif %}
+        {% endif %}
 
     <h2>Category: {{ post.category }}</h2>
     <h2>Deskripsi: {{ post.description }}</h2>
-   
-    
 </body>
 </html>
